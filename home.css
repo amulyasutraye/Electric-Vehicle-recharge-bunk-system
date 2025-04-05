@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 100%;
+  
+   background-color: rgb(169, 163, 163);
+
+}
+nav {
+   display: flex;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    padding: 20px;
+}
+
+nav .active {
+    background-color: rgb(252, 252, 206);
+}
+
+
+/* Change the color of links on hover */
+ nav a:hover {
+  background-color: #9f9f9f;
+  color: rgb(119, 118, 118);
+} 
+
+img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio:16/6.8;
+}
+#logout {
+  margin-left: 650px;
+  background-color: gray;
+ 
+}

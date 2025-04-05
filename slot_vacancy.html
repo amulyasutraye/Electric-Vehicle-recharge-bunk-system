@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+            flex-direction: column;
+          
+        }
+        
+
+        h1 {
+            text-align: center;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: auto;
+            text-align: center;
+        }
+    
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+    
+        th {
+            background-color: #f2f2f2;
+        }
+    
+        input[type="number"] {
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 60px;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    
+        button {
+            background-color: rgba(15, 15, 195, 0.789);
+            border: none;
+            color: white;
+            padding: 8px 12px; 
+            font-size: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+    
+        button:hover {
+            background-color: rebeccapurple;
+        }
+    </style>
+    <title>Slot Booking</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Slot Vacancy</h1>
+        <div id="results" data-key="bunkKey">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Available no. of slots:</th>
+                        <td id="slotCount"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="NoOfSlots">Enter no. of slots you want</label>
+                            <br>
+                            <input type="number" id="reqSlots"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button onclick="onBook()">Book</button>
+                        </td>
+                    </tr>
+                </thead>
+            </table> 
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.5.0/firebase-database-compat.js"></script>
+    <script src="slot_vacancy.js"></script>
+</body>
+</html>
