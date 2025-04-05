@@ -1,4 +1,4 @@
-# project-EV-recharge-bunk
+# Electric-Vehicle-recharge-bunk-system
 Welcome to the Electronic Vehicle Recharge Bunk project! This web-based application aims to provide users with a convenient and reliable platform for finding and booking electric vehicle charging slots at various locations.
 
 # Technologies Used
