@@ -7,7 +7,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB5Q8w36QVxIuAbGWkedhRJgiyH5FjJWxA",
+  apiKey: "<enter ur api key>",
     authDomain: "unified-mentor-a190d.firebaseapp.com",
     databaseURL: "https://unified-mentor-a190d-default-rtdb.firebaseio.com/",
     projectId: "unified-mentor-a190d",
